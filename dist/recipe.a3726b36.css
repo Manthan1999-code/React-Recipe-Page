@@ -12,6 +12,10 @@
   display: flex;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav-ul {
   justify-content: space-around;
   align-items: center;

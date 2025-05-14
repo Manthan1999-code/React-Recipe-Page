@@ -13,7 +13,9 @@
     border-radius: 50px;
     color: white;
 }
-
+a{
+    text-decoration: none;
+}
 .nav-ul{
     width: 600px;
     display: flex;
