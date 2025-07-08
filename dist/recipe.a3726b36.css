@@ -357,4 +357,185 @@ a {
     width: auto;
   }
 }
+
+@media (width <= 768px) {
+  .nav-container {
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .logo {
+    width: 90px;
+    height: 70px;
+    margin: 0 auto 10px;
+    display: block;
+  }
+
+  .nav-ul {
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    font-size: 1em;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .maindiv {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardmaindiv {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .mapdiv {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .cartmaindiv {
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+  }
+
+  .footer-container {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .footer-section {
+    padding: 10px 0;
+  }
+
+  .about-us, .contact {
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  .btndiv {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+  }
+
+  .mainbtndiv {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .searchbar {
+    width: 100%;
+    max-width: none;
+    left: 0;
+  }
+}
+
+@media (width <= 576px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 8px 0;
+  }
+
+  .logo {
+    width: 70px;
+    height: 55px;
+    margin-bottom: 8px;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    font-size: .95em;
+  }
+
+  .nav-ul li {
+    margin-bottom: 6px;
+  }
+
+  .cardimage {
+    width: 90%;
+    height: auto;
+  }
+
+  .cardmaindiv {
+    width: 100%;
+  }
+
+  .mapdiv {
+    gap: 10px;
+  }
+
+  .cartmaindiv {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .footer-container {
+    padding: 0 10px;
+  }
+
+  .about-us, .contact {
+    width: 95%;
+  }
+
+  .btndiv {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .mainbtndiv {
+    flex-direction: column;
+  }
+
+  .searchbar {
+    width: 100%;
+    max-width: none;
+    left: 0;
+  }
+}
+
+@media (width <= 400px) {
+  .nav-ul {
+    flex-direction: column;
+    height: auto;
+    font-size: x-small;
+  }
+
+  .logo {
+    width: 50px;
+    height: 40px;
+  }
+
+  .cart, .tag {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+
+  .search-input {
+    font-size: 14px;
+  }
+
+  .searchbtn {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
 /*# sourceMappingURL=recipe.a3726b36.css.map */
